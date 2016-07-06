@@ -243,3 +243,18 @@ a {
 @media screen and (max-width: 42em) {
   .site-footer {
     font-size: 0.9rem; } }
+
+
+li.shipped span { color: black; }
+li.shipping span { color: red }
+li.shipped, li.shipping { color: black; }
+li.planned span { color: grey; }
+
+.center {
+  width: 200px;
+  margin-right: 50%;
+  margin-left: 50%;
+}
+
+
+
